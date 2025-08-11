@@ -1,0 +1,4 @@
+swiftc -parse-as-library -framework ScreenCaptureKit -framework AVFoundation -o audio_monitor test1.swift
+codesign -s "Dimitrije Matovic" ./audio_monitor
+
+// this shows what you need to compile the app, you will need your own certificate!!
